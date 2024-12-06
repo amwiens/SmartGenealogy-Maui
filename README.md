@@ -1,1 +1,1 @@
-# SmartGenealogy-Maui
+# Smart Genealogy
