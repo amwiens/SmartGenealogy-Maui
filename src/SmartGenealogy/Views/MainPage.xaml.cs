@@ -1,12 +1,23 @@
-﻿namespace SmartGenealogy.Views;
+﻿using SmartGenealogy.ViewModels;
+
+namespace SmartGenealogy.Views;
 
 public partial class MainPage : ContentPage
 {
     int count = 0;
+    MainViewModel _viewModel;
 
-    public MainPage()
+    public MainPage(MainViewModel viewModel)
     {
         InitializeComponent();
+        _viewModel = viewModel;
+        BindingContext = _viewModel;
+    }
+
+    protected async override void OnAppearing()
+    {
+        base.OnAppearing();
+        await _viewModel.GetPlacesAsync();
     }
 
     private void OnCounterClicked(object sender, EventArgs e)

@@ -65,7 +65,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="ViewModels\" />
+	  <ProjectReference Include="..\SmartGenealogy.Data\SmartGenealogy.Data.csproj" />
 	</ItemGroup>
 
 </Project>

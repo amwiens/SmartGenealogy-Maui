@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartGenealogy", "SmartGenealogy\SmartGenealogy.csproj", "{B269D3F3-CDE0-4842-ABA9-40ABF4AAE6BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartGenealogy.Data", "SmartGenealogy.Data\SmartGenealogy.Data.csproj", "{4C62989E-46DF-4472-BD88-73E4ACE6977E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B269D3F3-CDE0-4842-ABA9-40ABF4AAE6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B269D3F3-CDE0-4842-ABA9-40ABF4AAE6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B269D3F3-CDE0-4842-ABA9-40ABF4AAE6BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C62989E-46DF-4472-BD88-73E4ACE6977E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C62989E-46DF-4472-BD88-73E4ACE6977E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C62989E-46DF-4472-BD88-73E4ACE6977E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C62989E-46DF-4472-BD88-73E4ACE6977E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
